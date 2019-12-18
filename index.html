@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        h1{
+            color: red;
+            background-color: blue;
+        }
+        p{
+            color: white;
+            background-color: black;
+        }
+        .big{
+          font-size: 30px;
+        }
+        #info{
+            font-size: 40px;
+        }
+    </style>
 </head>
 <body>
     <h1>최홍석</h1>
-    <p>
+    <p id="info">
         저는 연신내에 살고있습니다<br>
         언리얼 관련 구직을 원합니다
     </p>
+    <p class="big">근데 회사가 많이 없네요</p>
+    <div class="big">이건 그냥 한 번 써봤습니다</div>
+    <button id="btn">알림창 표시</button>
+    <script>
+        const btn = document.querySelector('#btn'); //id가 btn인 걸 가져옴
+        btn.addEventListener('click', function(){
+            alert('누르지마셈');
+        });
+    </script>
 </body>
 </html>
