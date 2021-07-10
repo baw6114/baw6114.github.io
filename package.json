@@ -33,6 +33,7 @@
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1"
+        "socket.io-parser": ">=3.3.2"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
@@ -45,6 +46,6 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0"        
     }
 }
