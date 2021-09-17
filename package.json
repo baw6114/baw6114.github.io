@@ -34,7 +34,8 @@
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
         "socket.io-parser": ">=3.3.2",
-        "ws": ">=6.2.2"
+        "ws": ">=6.2.2",
+        "set-value": ">=4.0.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
